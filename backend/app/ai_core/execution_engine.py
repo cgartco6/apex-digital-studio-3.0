@@ -1,5 +1,9 @@
 from .llm_router import LLMRouter
 from .memory.vector_store import VectorStore
+from app.billing.plans import PLANS
+
+    def can_execute(self, plan: str, used: int):
+        return used < PLANS[plan]["monthly_ai_runs"]
 
 class ExecutionEngine:
     def __init__(self):
