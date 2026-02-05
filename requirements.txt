@@ -4,3 +4,7 @@ pydantic
 sqlalchemy
 python-dotenv
 requests
+psycopg2-binary
+alembic
+passlib[bcrypt]
+python-jose
