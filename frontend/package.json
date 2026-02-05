@@ -1,0 +1,5 @@
+{
+  "name": "apex-frontend",
+  "scripts": {"serve": "vue-cli-service serve", "build": "vue-cli-service build"},
+  "dependencies": {"vue": "^3.0.0"}
+}
