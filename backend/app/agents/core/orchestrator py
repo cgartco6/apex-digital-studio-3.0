@@ -1,3 +1,8 @@
+from app.ai_core.execution_engine import ExecutionEngine
+
 class Orchestrator:
-    def dispatch(self, agent, payload):
-        return agent.run(payload)
+    def __init__(self):
+        self.engine = ExecutionEngine()
+
+    def dispatch(self, prompt: str, user_id: str):
+        return self.engine.execute(prompt, user_id)
