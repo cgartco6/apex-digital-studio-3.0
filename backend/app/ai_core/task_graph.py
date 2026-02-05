@@ -15,4 +15,5 @@ class TaskGraph:
         result = payload
         for node in nx.topological_sort(self.graph):
             handler = self.graph.nodes[node]["handler"]
-            result
+            result = handler(result)
+        return result
