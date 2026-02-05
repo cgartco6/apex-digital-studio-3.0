@@ -11,3 +11,12 @@ AI-powered digital design & marketing studio.
 ## Quick Start
 ```bash
 docker-compose up --build
+## Windows One-Click Install
+
+1. Install Docker Desktop
+2. Install Python 3.11+
+3. Right-click `run_apex.bat` → Run as Administrator
+
+Apex will be available at:
+- Backend: http://localhost:8000
+- Frontend: http://localhost:8080
