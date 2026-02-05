@@ -12,3 +12,4 @@ openai
 chromadb
 sentence-transformers
 networkx
+stripe
