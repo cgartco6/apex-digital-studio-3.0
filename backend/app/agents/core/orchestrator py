@@ -1,0 +1,3 @@
+class Orchestrator:
+    def dispatch(self, agent, payload):
+        return agent.run(payload)
